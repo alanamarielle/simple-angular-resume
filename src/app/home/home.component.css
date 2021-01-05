@@ -1,0 +1,17 @@
+.home {
+  text-align: center;
+  max-width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: lavender;
+}
+.alana-img {
+  border-radius: 100%;
+  max-width: 50%;
+  max-height: 50%;
+}
+@media only screen and (min-width: 768px) {
+}

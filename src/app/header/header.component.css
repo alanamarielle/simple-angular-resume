@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lavender;
+
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.name-header {
+  font-size: 30px;
+  margin: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+}
