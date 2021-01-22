@@ -5,16 +5,28 @@
 .skills {
   max-width: 50ch;
   display: flex;
+  justify-content: space-evenly;
 }
+
 .training {
   max-width: 50ch;
+  display: flex;
+  flex-direction: column;
 }
-h3 {
-  padding: 0;
-  margin: 0;
+.training h2 {
+  text-align: center;
 }
+
 @media only screen and (min-width: 768px) {
+  .skills {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 960px) {
   .container {
     flex-direction: row;
+  }
+  .skills h2 {
+    margin-right: 16px;
   }
 }
